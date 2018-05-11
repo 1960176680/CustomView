@@ -33,9 +33,8 @@
     <com.example.administrator.customview.CounterView
         android:id="@+id/title_bar1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        Test:titleText="1"
-        />
+        android:layout_height="48dp"
+        Test:titleText="1" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -44,4 +43,9 @@
         android:background="@drawable/shape"
         android:src="@mipmap/ic_launcher"
         />
+
+    <com.example.administrator.customview.CustomListView
+        android:id="@+id/custom_lv"
+        android:layout_width="match_parent"
+        android:layout_height="262dp" />
 </LinearLayout>
