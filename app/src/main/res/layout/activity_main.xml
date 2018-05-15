@@ -46,6 +46,29 @@
 
     <com.example.administrator.customview.CustomListView
         android:id="@+id/custom_lv"
-        android:layout_width="match_parent"
-        android:layout_height="262dp" />
+        android:layout_width="233dp"
+        android:layout_height="3dp" />
+
+    <com.example.administrator.customview.MyViewGroup
+        android:layout_width="325dp"
+        android:layout_height="109dp"
+        android:background="#ff9900">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+
+    </com.example.administrator.customview.MyViewGroup>
+    
 </LinearLayout>

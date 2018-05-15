@@ -56,10 +56,11 @@ public class CounterView extends View implements View.OnClickListener{
 
     }
 
-//    @Override
-//    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-//        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-//    }
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+
+    }
 
     @Override
     public void onClick(View v) {
